@@ -1,23 +1,23 @@
-.wy-nav-content {
+html body .wy-nav-content {
     padding: 1.618em 3.236em;
     height: 100%;
     max-width: 100%;
 }
 
-.wy-nav-top {
+html body .wy-nav-top {
     background-color: #1f99c4;
 }
 
-.wy-nav-side {
+html body .wy-nav-side {
     background-color: #d6d6d6;
 }
 
-.wy-side-nav-search {
+html body .wy-side-nav-search {
     background-color: #d6d6d6;
     color: #787878;
 }
 
-.wy-side-nav-search:before {
+html body .wy-side-nav-search:before {
     content: '';
     background: #d6d6d6 url('logo_beslist_nl.png') top center no-repeat;
     display: block;
@@ -26,9 +26,10 @@
     color: #787878;
 }
 
-.wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a,
-.wy-side-nav-search>div.version,
-.wy-menu-vertical a {
+html body .wy-side-nav-search>a,
+html body .wy-side-nav-search .wy-dropdown>a,
+html body .wy-side-nav-search>div.version,
+html body .wy-menu-vertical a {
     color: #787878;
 }
 

@@ -9,8 +9,6 @@ Contents:
 
    introduction
    order_api/index
-   manual
-   md-test
 
 
 
