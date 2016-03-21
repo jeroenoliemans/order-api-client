@@ -1,6 +1,8 @@
 {
   "name": "beslist/order-api-client",
   "description": "Belist.nl BV API Client for the Order API",
+  "version": "0.1.0",
+  "license": "GNU GPLv3",
   "authors": [
     {
       "name": "Yordi Pauptit",
@@ -15,14 +17,16 @@
       "email": "j.oliemans@beslist.nl"
     }
   ],
-  "autoload": {
-    "psr-4": {"Beslist\\OrderAPIClient\\": "src/"}
-  },
   "require": {
-    "php": ">=5.5.0",
-    "guzzlehttp/guzzle": "~6.0"
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~5.3"
   },
   "require-dev": {
-    "phpunit/phpunit": "^5.2"
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Beslist\\OrderAPI\\": "./src/"
+    }
   }
 }
