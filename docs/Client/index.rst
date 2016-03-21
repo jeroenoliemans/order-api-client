@@ -1,10 +1,11 @@
-Order Api
+Order Client
 ================================================
 
 Contents:
 
 
+
 .. toctree::
    :maxdepth: 1
 
-   getorders
+   introduction
