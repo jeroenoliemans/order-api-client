@@ -38,7 +38,12 @@ html body .rst-versions {
     border-top-color: #d6d6d6;
 }
 
+html body .rst-versions .rst-current-version,
 html body .rst-versions .rst-other-versions {
+    background-color: #787878;
     color: #fff;
 }
 
+html body .rst-versions .rst-other-versions dt {
+    color: #ccc;
+}
