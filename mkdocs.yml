@@ -1,4 +1,6 @@
 site_name: Test order api
+extra_css:
+    - _static/theme_overrides.css
 pages:
 - Home: 'index.md'
 - Client:
