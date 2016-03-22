@@ -1,3 +1,4 @@
+site_name: Test order api
 pages:
 - Home: 'index.md'
 - Client:
