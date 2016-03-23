@@ -1,4 +1,4 @@
-site_name: Beslist Order-Api
+site_name: Beslist Order-API
 extra_css:
     - _static/theme_overrides.css
 pages:
