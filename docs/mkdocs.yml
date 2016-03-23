@@ -1,9 +1,11 @@
 site_name: Beslist Order-API
 extra_css:
     - _static/theme_overrides.css
+repo_url: https://github.com/beslist/order-api-client.git
 pages:
 - Home: 'index.md'
 - Client:
     - Introduction: 'Client/introduction.md'
 - API:
     - API: 'API/getorders.md'
+theme: readthedocs
